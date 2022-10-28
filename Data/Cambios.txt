@@ -1,0 +1,4 @@
+Cambios realizados en el repo
+
+9:56 He modificado gitignore para que no se suban los ficheros *.csv al repo de GitHub
+
