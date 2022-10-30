@@ -57,6 +57,52 @@ def clean_species(x):
         return 'Unknown Shark'
     
     
-# Function to clean the Species Column by selecting strings present in the names and assigning them to an Specific and clean name for each shark species, and once all most common are assigned the rest will be assigned as "Unknown Shark"
+# Function to clean the Ages Column by selecting strings present in the names and assigning an Specific age by cleaning the string.
+
+def clean_age(x):
+    
+    if ',' in x:
+        x = x.split(' , ')
+        return  x[0]
+    
+    elif '&' in x:
+        x = x.split(' & ')
+        return x[1]
+    
+    elif 'or' in x:
+        x = x.split(' or ')
+        return x[0]
+    
+    elif 'months' in x:
+        return 1
+      
+    elif 'teen' in x.lower():
+        return 15
+    
+    elif 'young' in x.lower():
+        return 25
+    
+    elif 'adult' in x.lower():
+        return 35
+    
+    elif 'middle-age' in x:
+        return 50
+    
+    elif 'elderly' in x.lower():
+        return 70
+    
+    else:    
+        return x
+          
+    
+
+    
+    
+        
+        
+    
+    
+
+
 
 
