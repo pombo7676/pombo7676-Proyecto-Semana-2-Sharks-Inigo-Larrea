@@ -94,7 +94,42 @@ def clean_age(x):
     else:    
         return x
           
+def clean_activity(x):
     
+    if 'pad' in x.lower():
+        return  'Paddle Surfing'
+    
+    elif 'kite' in x.lower():
+        return 'Kite Surfing'
+    
+    elif 'surf' in x.lower():
+        return 'Surfing'
+        
+    elif 'swim' in x.lower():
+        return 'Swimming'
+    
+    elif 'bath' in x.lower():
+        return 'Bathing'
+    
+    elif 'scu' in x.lower():
+        return 'Scubba Diving'
+    
+    elif 'div' in x.lower():
+        return 'Diving'
+    
+    elif 'kay' in x.lower():
+        return 'Kayaking'
+    
+    elif 'fish' in x.lower():
+        return 'Fishing'
+    
+    elif 'boat' in x.lower():
+        return 'Boating'
+    
+    
+    
+    else:    
+        return x    
 
     
     
