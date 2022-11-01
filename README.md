@@ -18,7 +18,7 @@ Pasos a seguir:
   c)  Columnas con mismo tipo de datos
   
 
-4-  Presentación del proyecto - Martes 1 de Nviembre (9:00)
+4-  Presentación del proyecto - Martes 1 de Noviembre (9:00)
 =======
 
 >>>>>>> 52db458197cc9b9d7bc9f47267817bcb5cc63f6a
