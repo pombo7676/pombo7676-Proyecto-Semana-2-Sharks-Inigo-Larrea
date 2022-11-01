@@ -17,8 +17,6 @@ Pasos a seguir:
   b)  Al final del proyecto tener al menos 6000 filas de datos
   c)  Columnas con mismo tipo de datos
   
-<<<<<<< HEAD
-4-  Presentación del proyecto - Martes 31 de Octubre (10:00)
-=======
-4-  Presentación del proyecto - Martes 31 de Octubre (10:00)
->>>>>>> 52db458197cc9b9d7bc9f47267817bcb5cc63f6a
+4- Presentación del Proyecto - Martes 1 de Noviembre (9:00)
+
+
